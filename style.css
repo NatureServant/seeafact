@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #b3bdf7;
+    background-color: #64ce64;
 }
 .container{
     width: 60%;
@@ -39,7 +39,7 @@ img{
     width: 100%;
     text-align: center;
     font-size: 14px;
-    background: #0d122e;
+    background: #0c1a0c;
     color: #fff;
     bottom: 0;
     position: fixed;
@@ -48,12 +48,23 @@ h1{
     font-size: 45px;
     margin-bottom: 10px;
     text-align: center;
+    color: #0f220f;
 }
 p{
     font-size: 20px;
     text-align: justify;
     font-weight: 500;
     margin-bottom: 10px;
+}
+.banner{
+    position: fixed;
+    top: 0;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    font-weight: 500;
+    background-color: #0c1a0c;
+    color: goldenrod;
 }
 @media (max-width:430px) {
     img{
@@ -80,6 +91,9 @@ p{
         font-size: 22px;
         font-weight: 500;
     }
+    .banner{
+        font-size: 20px;
+    }
 }
 @media (max-width: 850px) {
     .container{
@@ -87,5 +101,8 @@ p{
     }
     h1{
         text-align: center;
+    }
+    .banner{
+        font-size: 18px;
     }
 }
